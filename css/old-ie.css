@@ -3,4 +3,6 @@ div#old-ie {
 	font-family: Arial;
 	text-align: center;
 }
-div#modern-browser { display: none; }
+div#modern-browser {
+	display: none; 
+}
