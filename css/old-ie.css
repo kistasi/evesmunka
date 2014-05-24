@@ -1,0 +1,6 @@
+div#old-ie {
+	display: block;
+	font-family: Arial;
+	text-align: center;
+}
+div#modern-browser { display: none; }

@@ -1,0 +1,149 @@
+body { 
+	background: #f7f7f7; 
+}
+
+/* Old IE */
+div#old-ie {
+	display: none; 
+}
+
+/* Header */
+a.navbar-brand {
+	font-size: 30px;
+}
+
+/* Sections */
+section.section {
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+header.section-header {
+	height: 75px;
+}
+
+h2.title {
+	float: right;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+/* Boxes */
+h3.subtitle {
+	color: #fff;
+	background: #252525;
+	padding: 5px;
+	text-align: center;
+}
+
+section.box {
+	background: #fff;
+	width: 32%;
+	height: 600px;
+	padding-bottom: 20px;
+	border: 2px solid #887777;
+	margin: 5px;
+	text-align: justify;
+}
+
+figure.box-img img {
+	border: 2px solid #887777;
+	padding: 4px;
+}
+
+/* Skills (bug!) */
+div.skill {
+	height: 50px;
+}
+
+/* div.skill span.skill-title {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-top: 30px; 
+}
+
+*/
+
+span.skill-title {
+	font-size: 20px;
+	top: 30px;
+	/* margin-top: 25px;
+	margin-bottom: 25px; */
+}
+
+div.skill-ranger-wrapper {
+	padding: 2px;
+	border: 2px solid #887777;
+	margin-top: 10px;
+}
+
+div.skill-ranger {
+	background: #0072bc;
+	height: 30px;
+	padding-bottom: 25px;
+}
+
+/* Contact */ 
+section#message h3.subtitle span {
+	font-size: 15px;
+	font-weight: bold;
+	background: #bd1c1c;
+	padding: 4px;
+}
+
+/* Footer */
+footer#copyright {
+	font-size: 17px;
+	text-align: center;
+	border: 1px #e7e7e7 solid;  
+	width: 100%;
+	height: 80px;
+	padding: 30px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 800px) {
+	section.box {
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+} 
+@media only screen and (min-width: 240px) and (max-width: 800px) {
+	nav.navbar-right {
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	a.navbar-brand {
+		font-size: 20px;
+	}
+
+	nav.navbar-right {
+		text-align: center;
+	}
+
+	h2.title {
+		text-align: center;
+	}
+}
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+	nav.navbar-right {
+		text-align: center;
+	}
+
+	a.navbar-brand {
+		font-size: 15px;
+	}
+
+	section#thx {
+		height: 750px;
+	}
+
+	footer#copyright {
+		font-size: 15px;
+	}
+}
