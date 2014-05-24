@@ -52,39 +52,22 @@ figure.box-img img {
 }
 
 /* Skills (bug!) */
-div.skill {
-	height: 50px;
-}
-
-/* div.skill span.skill-title {
-	font-size: 20px;
-	font-weight: bold;
-	padding-top: 5px;
-	padding-left: 5px;
-	margin-top: 30px; 
-}
-
-*/
-
-span.skill-title {
-	font-size: 20px;
-	top: 30px;
-	/* margin-top: 25px;
-	margin-bottom: 25px; */
-}
-
 div.skill-ranger-wrapper {
-	padding: 2px;
+	height: 45px;
+	padding: 5px;
 	border: 2px solid #887777;
-	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 div.skill-ranger {
 	background: #0072bc;
 	height: 30px;
-	padding-bottom: 25px;
 }
 
+span.skill-title {
+	font-size: 18px;
+	font-weight: bold; 
+}
 /* Contact */ 
 section#message h3.subtitle span {
 	font-size: 15px;
