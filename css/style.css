@@ -1,10 +1,11 @@
-body { 
-	background: #f7f7f7; 
-}
-
 /* Old IE */
 div#old-ie {
 	display: none; 
+}
+
+/* Layout */
+body { 
+	background: #f7f7f7; 
 }
 
 /* Header */
